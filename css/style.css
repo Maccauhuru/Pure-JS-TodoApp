@@ -1,23 +1,46 @@
+/* Base styles */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 body {
     padding:0.9375rem;
     background-color:#66CCFF;
     font-family:Arial, Helvetica, sans-serif;
 }
 
+/* Header Styles */
 #title{
     padding:0.625rem;
+    margin-bottom: 1.2rem;
     font-size:2.25rem;
     border:0.125rem solid #fff;
-    width:15.625rem;
+    width:25rem;
+    text-align: center;
 }
+
 #todo-header {
     font-size: 1.5rem;
+    margin-bottom: 1.2rem;
 }
+
+/* Todo List Styles */
+#user-todo{
+width:25rem;
+height:1.875rem;
+border: 0.0625rem solid black;
+font-size: 1.25rem;
+margin-bottom:1.2rem;
+}
+
+/* List Styles */
 
 ul {
     list-style-type: none;
     padding-left:0;
-    width:15.625rem;
+    width:25rem;
 }
 
 li{
@@ -27,16 +50,18 @@ li{
     margin-bottom:0.9375rem;
     border-radius: 0.3125rem;
     font-weight: bold;
-    border:1px solid black;
+    border:0.0625rem solid black;
 }
 
+/* Button Styles */
+
 #clear{
-    padding: 5px;
+    padding: 0.3125rem;
     background-color: black;
     color:turquoise;
-    width:250px;
-    height:50px;
-    font-size: 18px;
+    width:25rem;
+    height:3.125rem;
+    font-size: 1.125rem;
     cursor: pointer;
-    border: 1px solid whitesmoke;
+    border: 0.0625rem solid whitesmoke;
 }
